@@ -69,4 +69,44 @@
 
 ## Ход работы
 
+### Задание 1
+
+Созданая сеть
+
+![task1_scheme](./resources/task1_scheme.png)
+
+На каждом узле включим маршрутизацию и в качестве шлюза по умолчанию поставим IP маршрутизатора в сети
+
+Таблица маршрутизации для маршрутизатора
+
+![routing table](./resources/task1_rtable.png)
+
+Передача UDP пакета
+
+![udp](./resources/task1_udp.png)
+
+Передача TCP пакета
+
+![tcp](./resources/task1_tcp.png)
+
+### Задание 2
+
+Вид сети
+
+![task2 scheme](./resources/task2_scheme.png)
+
+Так как сеть 2 имеет два маршрутизатора, добавим в таблицу маршрутизации статические записи, чтобы был шлюз по умолчанию
+
+![routing table 1](./resources/task2_rtable1.png)
+
+![routing table 2](./resources/task2%20_rtable2.png)
+
+Передача UDP
+
+![udp](./resources/task2_udp.png)
+
+Передача TCP
+
+![tcp](./resources/task2_tcp.png)
+
 ## Вывод
